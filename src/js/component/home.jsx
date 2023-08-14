@@ -77,7 +77,7 @@ const Home = () => {
 					</ul>
 					<div className="items ms-4">
 					
-					{lista.length} <span>items restantes</span>
+					{lista.length === 0 ? "No hay tareas pendientes, agregar tarea" : lista.length + "items restantes"}
 					</div>
 
 				</div>
